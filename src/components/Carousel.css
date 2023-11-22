@@ -1,1 +1,47 @@
 /* write your carousel css in this file */
+body{
+    background-color: rgb(15, 15, 15);
+    margin: 1fr 1fr 1fr 1fr;
+}
+  
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+img{
+    height: 670px;
+    width: 630px;
+}
+
+.sidebtn{
+    color: white;
+    width: 30px;
+    align-content: center;
+    margin: 10px 10px 10px 10px;
+}
+
+.texter{
+    background-color: white;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    border-radius: 15px;
+    opacity: 0.9;
+}
+
+h1{
+    font-size: 50px;
+    position: absolute; 
+    top: 40%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+
+h3{
+    font-size: 30px;
+    position: absolute; 
+    top: 70%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}

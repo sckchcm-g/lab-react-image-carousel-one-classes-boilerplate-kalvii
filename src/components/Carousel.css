@@ -16,11 +16,15 @@ img{
 }
 
 .sidebtn{
-    color: white;
-    /* background-color: aqua; */
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
     /* width: 30px; */
     align-content: center;
     margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 20px;
+    border-radius: 100px;
+    opacity: 0.9;
+
 }
 
 .texter{
